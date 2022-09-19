@@ -1,0 +1,16 @@
+//Home work question 1
+
+public class lab
+{
+    public static void main(String[] args) {
+        PerimeterTester x = new PerimeterTester() ;
+        x.setHeight(50);
+        // return 50
+        x.getHeight() ;
+        x.setWidth(50);
+        // return 50
+        x.getWidth() ;
+        // return 2*(50+50) = 200 ;
+        x.displayresult();
+    }
+}
